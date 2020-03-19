@@ -21,6 +21,14 @@ public class Question1SwapN {
 		System.out.println("The value of name1 is:"+ name1);
 		name=name.replace(name1, "");
 		System.out.println("The value of name is:"+ name);
+		
+		String str1="Syntax";
+		String str2="Night";
+		str1=str1+str2;
+		str2=str1.substring(0,str1.length()-str2.length());
+		str1=str1.substring(str2.length());
+		System.out.println("The value of str1= "+ str1);
+		System.out.println("The value of str1= "+ str2);
 	}
 
 }
