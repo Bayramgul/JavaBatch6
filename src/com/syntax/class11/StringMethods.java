@@ -11,8 +11,8 @@ public class StringMethods {
 		System.out.println(name.length());//tells the num of characters in the name variable
 		System.out.println(name.toUpperCase());//returns all of the values to Upper case
 		System.out.println(name.toLowerCase());//returns all characters to lower case
-		System.out.println(name.charAt(9));
-		System.out.println(name.substring(0,3));//cuts characters btw certain indexes including 0 until 3(not include 3)
+		System.out.println(name.charAt(9));//tells the character at that index number
+		System.out.println("Certain substring "+name.substring(0,3));//cuts chrcters btw certain indexes including 0 and 3(cuts and throws after3)
 		System.out.println(name.indexOf("bah"));// when u write anything thats  not in your name var it will print -1
 		//************String Concatenation************
 		String day="Saturday";
