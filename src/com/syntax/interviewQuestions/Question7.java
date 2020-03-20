@@ -1,11 +1,13 @@
 package com.syntax.interviewQuestions;
 
+import java.util.Arrays;
+
 public class Question7 {
 
 	public static void main(String[] args) {
 		// Write a java program to find the second largest number in the array? Maximum
 		// and minimum number in the array?
-		int[] a = { 12, 34, 67, 89, 23, 98 };
+		int[] a = { 900,12, 34, 67, 89, 23, 98 };
 		int max = a[0];
 		int min = a[0];
 		int second = a[0];
@@ -18,14 +20,21 @@ public class Question7 {
 			}
 		}
 		for (int j = 0; j < a.length; j++) {
-			if(a[j]>second&& a[j]!=max) {
+			if(a[j]>second && a[j]!=max) {
 				second=a[j];
-			}
+			} 
 		}
 		System.out.println("The largest number is: " + max);
 		System.out.println("The second largest number is: " + second);
 		System.out.println("The min number is: " + min);
-
+		
+		// Elion way
+		
+		Arrays.sort(a);
+		System.out.println("Smallest "+ a[0]);
+		System.out.println("Largest "+a[a.length -1]);
+		System.out.println("Second largest "+ a[a.length-2]);
+		//
 	}
 
 }
