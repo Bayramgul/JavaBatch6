@@ -25,7 +25,7 @@ public class Question6Palindrome {
 			System.out.println("This is not a palindrome");
 		}
 		//2nd way
-		String reverse=" ";
+		String reverse="";
 		System.out.println(reverse.isEmpty());
 		char[]charArray=text.toCharArray();
 		for(int i1=charArray.length-1;i1>=0;i1--) {
