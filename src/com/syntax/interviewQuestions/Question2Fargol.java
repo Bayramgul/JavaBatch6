@@ -5,6 +5,7 @@ public class Question2Fargol {
 	public static void main(String[] args) {
 		int num = 5;//this is the number we check
         boolean prime =true;//variable to check boolean condition
+        if (num>1) {
         for(int i = 2;i<num;i++)//2 is 1st prime num,until that num
         {
             // condition for non prime number
@@ -13,11 +14,14 @@ public class Question2Fargol {
                 prime = false;
                 break;
             }
+        }}else {
+        	prime = false;
+        	
         }
-        if (prime)//true
+        
             System.out.println(num + " is a prime number.");
-        else
-            System.out.println(num + " is not a prime number.");
+        
+            
 	}
 
 }
