@@ -23,13 +23,13 @@ public class MethodsReturningValue {
 	
 	// create a method that returns largest number from 2 given numbers
 	int largest(int a, int b) {// 1) instead of void write the data type of returning value(largest), this method will return me a value
-		int largest=a;
+		int largest=a;//i give the value of a in the main method
 		if (a>b) {//condition to find largest
 		largest=a;
 		}else {
 			largest=b;
 		}
-		return largest;
+		return largest;//return must be the last statement inside ur method body, only one return value we can have in one returning method
 	}
 	
 	boolean isOdd (int num) {
