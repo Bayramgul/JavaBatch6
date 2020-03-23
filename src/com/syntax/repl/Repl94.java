@@ -1,4 +1,4 @@
-package Repl;
+package com.syntax.repl;
 
 import java.util.Scanner;
 

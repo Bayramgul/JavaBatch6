@@ -1,4 +1,4 @@
-package Repl;
+package com.syntax.repl;
 
 public class Repl102 {
 	String carColor;

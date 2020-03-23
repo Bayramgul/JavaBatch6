@@ -1,4 +1,4 @@
-package Repl;
+package com.syntax.repl;
 
 public class Repl101 {
 
