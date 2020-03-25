@@ -6,6 +6,7 @@ public class Repl114 {
 		
 		Repl114 obj=new Repl114();
 		System.out.println(obj.spaceOut("hello"));
+		
 	}
 
 	String spaceOut(String s) {

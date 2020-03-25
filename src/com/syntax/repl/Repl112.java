@@ -3,7 +3,7 @@ package com.syntax.repl;
 public class Repl112 {
 
 	
-		public static boolean  bothEven(int num1,int num2)
+		public static boolean  bothEven(int num1,int num2)// with static keyword we don't have to create any obj to use this code
 		{
 			boolean even;
 			if(num1%2==0 && num2%2==0){
