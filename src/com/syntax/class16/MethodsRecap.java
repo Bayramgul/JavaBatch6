@@ -1,6 +1,8 @@
 package com.syntax.class16;
 
 public class MethodsRecap {
+	//local variable is inside of class and inside of method
+
 
 	public static void main(String[] args) {
 		MethodsRecap obj=new MethodsRecap();
