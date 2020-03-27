@@ -6,15 +6,24 @@ public class Repl125 {
 		String mix="";
 		  // 1st way
 		for(int a=0;a<s1.length();a++) {
-			mix=mix+s1.charAt(a)+s2.charAt(a);
+			mix=mix+s1.charAt(a)+s2.charAt(a);//concatenation of string charcters
 		}
 		  //2nd way
 		 String [] stw =s1.split("");
 		 String [] st=s2.split("");
 		  for(int i=0;i<stw.length;i++){
-		    mix+=stw[i]+st[i];
+		    mix+=stw[i]+st[i];// concatenation of string charcters
 		      
-		  } return mix;
+		  } // 3rd way
+		  char []c1=s1.toCharArray();
+		  char[] c2=s2.toCharArray();
+		  
+		  for(int i=0;i<c1.length;i++){
+			    mix=mix+c1[i]+c2[i];// concatenation of char characters
+			      
+			  }
+		  
+		  return mix;
 		}
 		//test case below (don't change):
 		public static void main(String[] args){
