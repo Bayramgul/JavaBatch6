@@ -8,7 +8,7 @@ public class Task1 {
 		// package and accessible by the creating an instance of the class.
 		
 		
-	public static void main(String[] args) {
+	protected static void main(String[] args) {
 		Task1 obj=new Task1();
 		int [] arr1= {1,2,3,4,5};
 		System.out.println(obj.sum(arr1));
