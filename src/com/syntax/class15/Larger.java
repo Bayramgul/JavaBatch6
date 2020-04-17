@@ -1,6 +1,6 @@
 package com.syntax.class15;
 
-public class Larger {// void just performs logic but wont give you sth to strore
+public class Larger {// void just performs logic but wont give you sth to store
 	void compare(int num1, int num2) {
 		if (num1 > num2) {
 			System.out.println(num1 + " is the larger than " + num2);

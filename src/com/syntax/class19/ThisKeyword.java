@@ -13,7 +13,7 @@ public class ThisKeyword {
 		 System.out.println("I am non argumet constructor");
 	 }
 	public void sum(int a,int b) {
-		System.out.println("Sum of local variables "+(a+b));
+		System.out.println("Sum of local variables "+(a+b));// we give value when we call method by object of this class under main method
 		System.out.println("Sum of instance variables "+(this.a+this.b));// pass the value of current instance variable
 	}
 	public static void main(String[] args) {

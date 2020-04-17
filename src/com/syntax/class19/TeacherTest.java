@@ -4,7 +4,7 @@ public class TeacherTest {
 
 	public static void main(String[] args) {
 			MathTeacher t1=new MathTeacher();
-			t1.name="Fatosh";
+			t1.name="Kate";
 			t1.feature="Smart";
 			t1.studentNum=23;
 			t1.subject="math";
@@ -14,7 +14,7 @@ public class TeacherTest {
 			System.out.println("----------------------");
 			ChemistryTeacher t2=new ChemistryTeacher();
 			t2.lab="laboratory";
-			t2.name=" Meral";
+			t2.name=" Jane";
 			t2.studentNum=25;
 			t2.subject="chemistry";
 			t2.workExperience=2;
