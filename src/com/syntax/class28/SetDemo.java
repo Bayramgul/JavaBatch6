@@ -14,9 +14,11 @@ public class SetDemo {
 		values.add(1);
 		values.add(12);
 		values.add(99);
+		values.add(99);
 		System.out.println(values);// doesn't print in sequence, doesn't print duplicates
 		System.out.println(values.add(38));
 		System.out.println(values.add(34));//checks if there is 34 in the collection and returns false if there is any
+		values.clear();
 		Set<Integer> val = new TreeSet<>();//follows a sequence
 		val.add(12);
 		val.add(2);

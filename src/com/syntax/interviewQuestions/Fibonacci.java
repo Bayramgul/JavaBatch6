@@ -13,14 +13,14 @@ public class Fibonacci {
 //		}
 
 		// 1 1 3 5 8 13 21
-		int a = 0;
-		int b = 1;
-		int c;//sum
+		int first = 0;
+		int second = 1;
+		int third;//sum
 		for (int i = 0; i < 8; i++) {
-			c = a + b;//0+1=1
-			System.out.println(c);
-			a = b;//a=1
-			b = c;//b=1
+			third = first + second;//0+1=1
+			System.out.println(third);
+			first = second;//a=1
+			second = third;//b=1
 			
 		}
 	}

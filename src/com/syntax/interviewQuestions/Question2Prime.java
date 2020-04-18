@@ -11,7 +11,8 @@ public class Question2Prime {
 		System.out.println("please enter number greater than 1");
 		while(true) {//just for the while loop to start
 			 num=scan.nextInt();
-			if(num>1) {break;
+			if(num>1) {
+				break;
 			}System.out.println("Please enter valid number");
 		}
 	
