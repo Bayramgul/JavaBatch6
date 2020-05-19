@@ -9,7 +9,7 @@ public class HashMapDemo {
 	public static void main(String[] args) {
 		//consists of keys, values; key is like index number so we can't repeat it
 		HashMap<String , String> map=new HashMap();//we need to specify the data type
-		map.put("name", "Jane");//u can repeat value but not key, it will only print the first key
+		map.put("name", "Jane");//u can repeat value but not key, it will only print the last key
 		map.put("name1", "Jane");
 		map.put("lastname", "John");
 		map.put("middlename", "James");

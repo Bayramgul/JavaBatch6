@@ -14,6 +14,7 @@ public class SetFamily {
 		veggies.add("eggplant");
 		veggies.add("potato");
 		veggies.add("cucumber");
+		
 		System.out.println(veggies);//insertion order followed by LinkedHasSet,
 		
 		Set<String> fruits=new LinkedHashSet<>();// LinkedHasSet follow insertion order
@@ -33,5 +34,4 @@ public class SetFamily {
 		
 		
 	}
-
 }
